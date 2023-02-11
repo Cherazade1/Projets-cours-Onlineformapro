@@ -1,0 +1,176 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+#logo {
+  width: 200px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#menu {
+  margin-right: auto;
+  margin-left: auto;
+  direction: table;
+  padding: 0;
+  margin-top: 0;
+}
+
+#menu li {
+  display: table-cell;
+  width: 180px;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main {
+  display: flex;
+  height: 500px;
+}
+
+
+#photojacobpourbiographie {
+  width: 300px;
+
+}
+
+.texte {
+  margin-left: 20px;
+  font-size: 150%;
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  top: 50px;
+  position: relative;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+
+}
+
+#p {
+  position: relative;
+  margin-right: 100px;
+  top: 50px;
+}
+
+.h2_class {
+  font-size: 35px;
+
+}
+
+.text-centrer {
+  width: 100%;
+
+}
+
+body {
+  margin: 0;
+  background: #000;
+
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.stopfade {
+  opacity: .5;
+}
+
+#polina {
+  /*font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;*/
+  font-weight: 100;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2rem;
+  /*width: 33%;
+    margin:2rem;
+    float: right;*/
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+#polina button {
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  background: rgba(255, 255, 255, 0.23);
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s background;
+}
+
+#polina button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: .5rem;
+  transition: .6s background;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 500px) {
+  /*div{width:70%;}*/
+}
+
+@media screen and (max-device-width: 800px) {
+  html {
+    background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed;
+  }
+
+  #bgvid {
+    display: none;
+  }
+}
+
+.frm-margin {
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tableau {
+  color: bisque;
+}
